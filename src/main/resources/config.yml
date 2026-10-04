@@ -1,0 +1,11 @@
+enabled: true
+
+webhook:
+  url: "WEBHOOK_URL"
+
+message: |
+  Jugador conectado
+  Nombre: {player}
+  UUID: {uuid}
+  Versión: {version}
+  Hora: {time}

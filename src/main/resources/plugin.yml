@@ -1,0 +1,18 @@
+name: JoiningDcNotification
+version: 1.0.0
+main: io.github.labocinajuega.JoiningDcNotificationPlugin
+description: Plugin que notifica a un canal de dc cuando un usuario se une
+author: LaBocinaJuega
+api-version: '26.2'
+
+commands:
+  joinlog:
+    description: Comandos administrativos de JoinLog
+    usage: /joinlog reload
+    permission: joinlog.reload
+    permission-message: §cNo tienes permiso para usar este comando.
+
+permissions:
+  joinlog.reload:
+    description: Permite recargar la configuración del plugin JoinLog
+    default: op
